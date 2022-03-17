@@ -3,11 +3,11 @@ public class srings {
     public static void main(String[] args) {
         String str1 = "gid";
         String str2 = "Hash";
-        String str3 = "Hgiadhs";
+        String str3 = "Hgiadsh";
         int a, b;
         a = str1.length();
         b = str2.length();
-        if (str3.contains(str1) & str3.contains(str1) & a + b != str3.length()) {
+        if (a + b != str3.length()) {
             System.out.println("Invalid");
         } else {
             int f = 0;
