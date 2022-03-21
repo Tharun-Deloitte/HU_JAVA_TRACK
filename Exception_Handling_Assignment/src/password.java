@@ -80,9 +80,6 @@ public class password {
 
     }
     public static class PasswordException extends Exception{
-        public PasswordException(){
-            super("Invalid Password");
-        }
         public PasswordException(String problem){
             super("Invalid: "+problem);
         }
