@@ -12,10 +12,10 @@ public class Registration {
         System.out.println("Enter User Name");
         us=s.next();
         boolean p_check=true;
-            System.out.println("Enter Password");
-            pa = s.next();
-            System.out.println("Re Enter Password");
-            pa2 = s.next();
+        System.out.println("Enter Password");
+        pa = s.next();
+        System.out.println("Re Enter Password");
+        pa2 = s.next();
         int i=0;
         try {
             FileWriter fr = new FileWriter("C:\\Users\\naratreddy\\Documents\\New folder\\HU_JAVA_TRACK\\Main_Assignment\\Login.csv", true);

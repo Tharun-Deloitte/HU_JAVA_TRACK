@@ -44,7 +44,6 @@ public class Add_data {
         }
         System.out.println("address:");
         address=sc.next();
-        System.out.println(address);
         check=false;
         while(!check) {
             Phone_Number_Check Check_Phone=new Phone_Number_Check();
